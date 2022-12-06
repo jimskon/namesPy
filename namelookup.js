@@ -1,6 +1,7 @@
 // JavaScript for Name Data Lookup Demo
 // Jim Skon, Kenyon College, 2019
 var searchType;  // Save search type here
+const baseUrl = 'http://3.134.78.249:5000';
 
 console.log("Start!");
 searchType="Last";
@@ -57,7 +58,7 @@ function getMatches(){
     // Clear the previous results
     document.querySelector('#searchresults').innerHTML = "";
 
-    fetch('http://3.134.78.249:5000/name/'+searchStr+"/"+searchType, {
+    fetch(baseUrl+'name/'+searchStr+"/"+searchType, {
 	method: 'get'
     })
 	.then (response => response.json() )
