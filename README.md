@@ -1,5 +1,5 @@
 # namesPy
-## A name stats lopokup program using pythoing REST microservice
+## A name stats lopokup program using a python REST microservice
 
 ## Setup python3 and Flask
 
