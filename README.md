@@ -1,5 +1,5 @@
 # namesPy
-## A name stats loookup program using a python REST microservice
+## A name stats lookup program using a python REST microservice
 
 ## Setup pip3, Flask and FLASK-CORS
 https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
