@@ -1,7 +1,8 @@
 // JavaScript for Name Data Lookup Demo
 // Jim Skon, Kenyon College, 2019
 var searchType;  // Save search type here
-const baseUrl = 'http://3.134.78.249:5000';
+const port = 5000;
+const baseUrl = 'http://192.168.100.174:'+port;
 
 console.log("Start!");
 searchType="Last";
@@ -58,7 +59,7 @@ function getMatches(){
     // Clear the previous results
     document.querySelector('#searchresults').innerHTML = "";
 
-    fetch(baseUrl+'name/'+searchStr+"/"+searchType, {
+    fetch(baseUrl+'/name/'+searchStr+"/"+searchType, {
 	method: 'get'
     })
 	.then (response => response.json() )
