@@ -8,16 +8,17 @@
  - Ports 5000-5005 must be open on the VM firewall
 
 ## Setup pip3, Flask and FLASK-CORS
-
+ - ``` sudo apt install python3-pip ```
  - ```sudo apt install python3-flask```
  - ```pip3 install -U flask-cors```
+
+## Install SortedContainers:
+ - ``` pip install sortedcontainers ```
 
 ## Set Javascript IP address to your VM address
  - Edit ```namelookup.js``` so that ```baseUrl``` is your VM's IP address
  
-## Install pip and SortedContainers:
- - ``` sudo apt install python3-pip ```
- - ``` pip install sortedcontainers ```
+
 
 
 ## Set app (from command line)
