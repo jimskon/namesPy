@@ -8,8 +8,8 @@ https://pypi.org/project/Flask-Cors/
 ## Open ports 5000-5001 on your VM for tcp.
 
 ## Install pip and SortedContainers:
-``` sudo apt install python3-pip ```
-``` pip install sortedcontainers ```
+ - ``` sudo apt install python3-pip ```
+ - ``` pip install sortedcontainers ```
 
 
 ## Set app (from command line)
