@@ -7,6 +7,10 @@
 
 ## Setup pip3, Flask and FLASK-CORS
 https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
+
+## Set Javascript IP address to your VM address
+ - Edit ```namelookup.js``` so that ```baseUrl``` is your VM's IP address
+ 
 https://pypi.org/project/Flask-Cors/
 
 ## Install pip and SortedContainers:
